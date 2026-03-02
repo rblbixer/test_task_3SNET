@@ -1,0 +1,11 @@
+choose_a_topic = "Выбрать тематику"
+all_countries = "Все страны"
+width_input = "230"
+max_width = "1020"
+height_input = "240"
+max_height = "720"
+default_block_code = """
+<iframe id="3snet-frame" 
+src="https://3snet.info/widget-active-events/?theme=turquoise&event_group=10622&event_type=&event_country=" 
+width="230" height="240" frameborder="0"></iframe> 
+"""
