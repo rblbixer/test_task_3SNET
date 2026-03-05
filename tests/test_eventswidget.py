@@ -7,10 +7,10 @@ from pages.eventswidget_page import EventsWidgetPage
 from core.constants import *
 
 
-def test_test_error(page: Page) -> None:
-    home = EventsWidgetPage(page) 
-    home.goto("/eventswidget/")
-    home.expect_visible(home.locators["main_banner_2"])
+# def test_test_error(page: Page) -> None:
+#     home = EventsWidgetPage(page) 
+#     home.goto("/eventswidget/")
+#     home.expect_visible(home.locators["main_banner_2"])
 
 
 # загрузка станицы

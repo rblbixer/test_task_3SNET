@@ -20,5 +20,5 @@ LIST_TESTS = [
     "test_maximum_width",
     "test_maximum_height",
     "test_generation_parameters",
-    "test_test_error"
+    # "test_test_error"
 ]

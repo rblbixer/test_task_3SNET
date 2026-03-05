@@ -5,7 +5,7 @@ from datetime import datetime
 
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 
-from db import init_db, save_run, get_run, get_all_runs
+from web.db import init_db, save_run, get_run, get_all_runs
 from core.constants import LIST_TESTS
 
 
@@ -75,8 +75,3 @@ def allure_report(run_id: int, filepath: str = "index.html"):
 def history():
     runs = get_all_runs()
     return render_template("history.html", runs=runs)
-
-
-if __name__ == "__main__":
-    init_db()
-    app.run(debug=True)
