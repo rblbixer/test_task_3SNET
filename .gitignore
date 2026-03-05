@@ -3,3 +3,7 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .idea/
+.DS_Store
+web/allure-results/
+web/allure-reports/
+web/test_history.db
