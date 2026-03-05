@@ -34,7 +34,7 @@ class EventsWidgetPage(BasePage):
         "topic_igaming": "[data-select='Выбрать тематику'] .checkselect-popup label.custom-checkbox:has-text('Igaming')",
         "topic_marketing": "[data-select='Выбрать тематику'] .checkselect-popup label.custom-checkbox:has-text('Internet Marketing')",
         "topic_SEO": "[data-select='Выбрать тематику'] .checkselect-popup label.custom-checkbox:has-text('SEO')",
-        "topic_fintech": "[data-select='Выбрать тематику'] .checkselect-popup label.custom-checkbox:has-text('Финтех')",
+        "topic_fintech": "[data-select='Выбрать тематику'] .checkselect-popup label.custom-checkbox:has-text('Fintech')",
 
         "selected_checkbox": ".checkselect-control .active",
         "checked_topics": "[data-select='Выбрать тематику'] .checkselect-popup input[type='checkbox']:not(.selectAll):checked",
